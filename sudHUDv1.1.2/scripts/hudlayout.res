@@ -12,31 +12,21 @@
     //You can refresh the crosshair with the command "hud_reloadscheme"
 	/////////////////////////////////////////////////////////////////////////////
 
-	"Crosshair"
+	xHairSpread
 		{
-        "controlname"	"CExLabel"
-		"fieldname"	"Crosshair"
-        "textAlignment"	"center"
-		"xpos"		"0"
-		"ypos"		"-1"
-		"zpos"		"-200"
-		"wide"		"f0"
-		"tall"		"480"
-        "enabled"	"1"
-        
-        "visible"	"0"	//"1" to enable
-		
-		"labeltext"	""              //Change this to use a different crosshair
-                                     //You can see the list of crosshairs in yacrosshairs.png
-        
-        "font"		"CrosshairAA"    //Use "CrosshairOL" for a crosshair with an outline
-                                     //or "CrosshairAA" for a smooth crosshair w/o an outline 
-                                     
-                                     //You can add "Small" or "Big" at the end to change the size
-                                     //e.g. "CrosshairOLSmall"
-        
-        "fgcolor"	"Crosshair"      //Color is changed via the clientscheme
-                                     //in the "/resource/" folder
+		"controlName" "CExLabel"
+		"fieldName" "xHairSpread"
+		"visible" "0"
+		"enabled" "1"
+		"zpos" "2"
+		"xpos" "c-100"
+		"ypos" "c-100"
+		"wide" "202"
+		"tall" "198"
+		"font" "xHairSpread"
+		"labelText" "0"
+		"textAlignment" "center"
+		"fgcolor" "255 255 255 192"
 	}
     
     "flvBonusOutline"

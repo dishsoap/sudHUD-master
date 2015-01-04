@@ -4193,7 +4193,17 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-        
+        "xHairSpread"
+		{
+			"1"
+			{
+				"name" "Crosshairs"
+				"tall" "28"
+				"weight" "0"
+				"antialias" "1"
+			}
+		}
+		
         //TF2 font def
         
 		"Default"
