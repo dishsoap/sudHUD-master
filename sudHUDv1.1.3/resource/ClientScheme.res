@@ -520,45 +520,6 @@ Scheme
 		
         
         
-		"fogCrosshair"			//fog's crosshair
-		{
-			"1"
-			{
-				"name"		"Crosshairs"
-				"tall"		"28"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"1"
-			}
-		}
-        
-		"fogCrosshairSmall"			//fog's crosshair
-		{
-			"1"
-			{
-				"name"		"Crosshairs"
-				"tall"		"24"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"1"
-			}
-		}
-        
-        "fogCrosshairSmooth"
-		{
-			"1"
-			{
-				"name"		"Crosshairs"
-				"tall"		"28"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"0"
-			}
-		}
-        
         "CrosshairAASmall"
         {
 			"1"
@@ -4193,16 +4154,6 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-        "xHairSpread"
-		{
-			"1"
-			{
-				"name" "Crosshairs"
-				"tall" "28"
-				"weight" "0"
-				"antialias" "1"
-			}
-		}
 		
         //TF2 font def
         
@@ -5648,7 +5599,25 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-		
+"xHairSpread"
+
+{
+
+"1"
+
+{
+
+"name" "Crosshairs"
+
+"tall" "28"
+
+"weight" "0"
+
+"antialias" "1"
+
+}
+
+}
 		
 		//
 		//////////////////// REPLAY FONTS //////////////////////////////
@@ -7447,5 +7416,12 @@ Scheme
 			"font"	"resource/fonts/Solomon Heavy.ttf"
 			"name"	"solFontBold"
 		}
-	}
+"2" // replace with number not being used
+
+{
+
+"font" "resource/crosshairs.ttf"
+
+"name" "Crosshairs"
+
 }

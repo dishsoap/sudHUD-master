@@ -20,13 +20,13 @@
 		"enabled" "1"
 		"zpos" "2"
 		"xpos" "c-100"
-		"ypos" "c-100"
-		"wide" "202"
-		"tall" "198"
+		"ypos" "c-97"
+		"wide" "201"
+		"tall" "199"
 		"font" "xHairSpread"
-		"labelText" "0"
+		"labelText" "8"
 		"textAlignment" "center"
-		"fgcolor" "255 255 255 192"
+		"fgcolor" "255 255 255 255"
 	}
     
     "flvBonusOutline"
