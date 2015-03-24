@@ -5,8 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"-80"		//c176
-		"ypos"			"80"
+		"xpos"			"50"	
+		"ypos"			"112"
 		"wide"			"f0"
 		"tall"			"f0"
 		"MeterFG"		"White"
@@ -36,7 +36,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"c130"
+		"xpos"					"c132"
 		"ypos"					"333"
 		"zpos"					"2"
 		"wide"					"41"
@@ -92,7 +92,7 @@
 		"fgcolor"		        "AmmoReserve"
 		"font"				    "solFontBold14"
 	}
-	"ItemEffectMeterCountShadow"
+    "ItemEffectMeterCountShadow"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ItemEffectMeterCountShadow"

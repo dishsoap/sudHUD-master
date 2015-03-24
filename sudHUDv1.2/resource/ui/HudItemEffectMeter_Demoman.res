@@ -5,8 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"0"	
-		"ypos"			"0"
+		"xpos"			"50"	
+		"ypos"			"112"
 		"wide"			"f0"
 		"tall"			"f0"
 		"MeterFG"		"White"
@@ -31,13 +31,13 @@
 		"teambg_3"		"../hud/misc_ammo_area_blue"
 		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
 	}
-
+	
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"c48"
-		"ypos"					"413"
+		"xpos"					"c132"
+		"ypos"					"333"
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
@@ -71,13 +71,13 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 	}
-	
+
 	"ItemEffectMeterCount"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ItemEffectMeterCount"
-		"xpos"			        "c-43"	
-		"ypos"			        "410"
+		"xpos"			        "c42"	
+		"ypos"			        "330"
 		"zpos"					"2"
 		"wide"					"92"
 		"tall"					"24"	
@@ -96,8 +96,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ItemEffectMeterCountShadow"
-		"xpos"			        "c-43"	
-		"ypos"			        "411"
+		"xpos"			        "c42"	
+		"ypos"			        "331"
 		"zpos"					"2"
 		"wide"					"93"
 		"tall"					"24"	
