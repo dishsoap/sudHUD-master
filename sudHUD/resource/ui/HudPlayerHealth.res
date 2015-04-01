@@ -31,7 +31,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"font"			"solFontBold48"
-		"fgcolor"		"Health"
+		"fgcolor"		"White"
 	}
 	"PlayerStatusHealthValueShadow"
 	{
